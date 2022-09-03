@@ -1,0 +1,139 @@
+@media screen and (max-width: 600px) {
+    input {
+        width: 20px;
+
+    }
+}
+
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: linear-gradient(100deg, #0a5c5c, #0074b8, #0a5c5c, #0074b8);
+    background-size: 400% 400%;
+}
+
+
+form {
+    position: fixed;
+    bottom: 143px;
+    left: 421px;
+}
+
+input {
+    text-align: center;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    font-size: x-large;
+
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#hr1 {
+    position: fixed;
+    top: 167px;
+    left: 423px;
+    height: 2px;
+}
+
+#hr2 {
+    position: fixed;
+    top: 335px;
+    left: 423px;
+    height: 2px;
+}
+
+#hr3 {
+    position: fixed;
+    top: 3px;
+    left: 594px;
+    height: 499px;
+}
+
+#hr4 {
+    position: fixed;
+    top: 3px;
+    left: 768px;
+    height: 499px;
+}
+
+.choisir {
+    color: blue;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    position: fixed;
+    top: 200px;
+}
+
+.choisir #select {
+    width: 150px;
+    height: 25px;
+}
+
+.choisir #start {
+    width: 100px;
+    height: 25px;
+}
+
+.rejouer {
+    padding: 25px;
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    position: fixed;
+    top: 530px;
+    left: 485px;
+}
+
+.rejouer a button {
+    width: 200px;
+    height: 40px;
+}
+
+.time {
+    color: rgb(89, 88, 88);
+    padding: 25px;
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    position: fixed;
+    top: 200px;
+    left: 920px;
+}
+
+span {
+    font-size: 60px;
+}
+
+#chance {
+    color: rgb(255, 0, 0);
+    font-size: 80px;
+    position: fixed;
+    left: 1000px;
+}
+
+button {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(241, 234, 234);
+    border-radius: 50px;
+    width: 190px;
+    height: 50px;
+}

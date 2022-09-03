@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="Style_sudoku.css">
+    
+
+</head>
+
+<body>
+    <div class="choisir">
+        Niveau :
+        <select name="select" id="select">
+            <option value="choisir">Choisir</option>
+            <option value="facile">facile</option>
+            <option value="moyenne">moyenne</option>
+            <option value="difficile">difficile</option>
+        </select>
+        <button id="start" onclick="Start(this)">START</button><br>
+    </div>
+
+    <div class="rejouer">
+        <a href="sudoku.html"> <button id="rejouer">REJOUER</button></a><br>
+    </div>
+
+    <div class="time">
+        <span id="H">00</span>
+        <span>:</span>
+        <span id="M">00</span>
+        <span>:</span>
+        <span id="S">00</span>
+    </div>
+
+    <p id="chance">♥♥♥♥♥</p>
+
+    <div>
+        <hr color="black" width="517px" id="hr1">
+        <hr color="black" width="517px" id="hr2">
+        <hr color="black" width="2px" id="hr3">
+        <hr color="black" width="2px" id="hr4">
+    </div>
+
+    <script src="script_sudoku.js"></script>
+</body>
+
+</html>
