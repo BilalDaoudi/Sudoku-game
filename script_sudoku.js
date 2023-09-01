@@ -84,7 +84,7 @@ function Creation_Form() {
         }
         table.appendChild(tr)
     }
-    document.body.appendChild(form)
+    document.getElementById("table").appendChild(form)
 }
 
 // Appel Fonction Creation
